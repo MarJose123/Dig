@@ -34,13 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Marjose123\\Dig\\": "src/",
-            "Marjose123\\Dig\\Database\\Factories\\": "database/factories/"
+            "MarJose123\\Dig\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Marjose123\\Dig\\Tests\\": "tests/",
+            "MarJose123\\Dig\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -57,16 +56,6 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "phpstan/extension-installer": true
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Marjose123\\Dig\\DigServiceProvider"
-            ],
-            "aliases": {
-                "Dig": "Marjose123\\Dig\\Facades\\Dig"
-            }
         }
     },
     "minimum-stability": "dev",
