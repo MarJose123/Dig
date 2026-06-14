@@ -2,9 +2,9 @@
 
 namespace Marjose123\Dig;
 
+use Marjose123\Dig\Commands\DigCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Marjose123\Dig\Commands\DigCommand;
 
 class DigServiceProvider extends PackageServiceProvider
 {
